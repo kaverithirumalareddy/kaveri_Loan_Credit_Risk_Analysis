@@ -1,0 +1,501 @@
+Customer_ID,Gender,Age,Education,Employment_Status,Marital_Status,Dependents,Annual_Income,Credit_Score,Existing_Loans,Loan_ID,Loan_Type,Loan_Amount,Loan_Term_Months,Interest_Rate,Monthly_Installment,Debt_to_Income_Ratio,Employment_Years,Previous_Defaults,Credit_History,Property_Ownership,Region,Loan_Status,Default_Status
+CUST1001,Male,37,Master,Employed,Single,4,1336618,799,0,LN5001,Business,601238,60,8.43,10865.37,31.79,12,0,Good,Rented,West,Approved,No Default
+CUST1002,Female,29,High School,Self-Employed,Married,0,1282686,645,4,LN5002,Home,466704,60,12.2,8727.36,39.37,5,0,Average,Owned,Central,Defaulted,Default
+CUST1003,Female,53,Bachelor,Employed,Married,0,2305480,687,2,LN5003,Auto,1750734,60,12.96,32960.49,31.48,18,0,Average,Rented,East,Defaulted,Default
+CUST1004,Female,40,Bachelor,Employed,Married,3,1287810,764,4,LN5004,Business,2131280,60,12.2,39854.94,38.67,12,0,Good,Family,West,Approved,No Default
+CUST1005,Male,33,High School,Self-Employed,Married,2,992283,629,4,LN5005,Business,50215,12,11.29,4657.02,57.01,6,0,Average,Family,East,Active,No Default
+CUST1006,Male,48,Bachelor,Unemployed,Single,4,2001367,752,2,LN5006,Education,417747,36,11.59,12949.0,34.31,12,0,Good,Owned,West,Defaulted,Default
+CUST1007,Male,49,Master,Employed,Married,1,518365,525,4,LN5007,Home,905121,84,15.93,12491.75,37.97,19,0,Poor,Rented,East,Defaulted,Default
+CUST1008,Female,33,Master,Employed,Married,3,1055512,721,0,LN5008,Business,1067375,60,11.66,19863.85,46.53,7,0,Good,Mortgaged,Central,Closed,No Default
+CUST1009,Female,55,High School,Employed,Married,1,1758315,797,4,LN5009,Auto,322544,84,11.43,4278.7,50.93,18,0,Good,Owned,Central,Defaulted,Default
+CUST1010,Female,26,Master,Self-Employed,Married,3,2209144,636,2,LN5010,Business,584633,36,12.73,18307.13,47.2,2,0,Average,Owned,North,Active,No Default
+CUST1011,Male,38,Bachelor,Employed,Married,2,2078769,763,3,LN5011,Auto,1132472,72,12.92,17760.94,46.67,9,0,Good,Family,West,Rejected,Default
+CUST1012,Female,25,Bachelor,Employed,Single,2,1529590,817,4,LN5012,Home,1577222,60,9.55,28797.45,45.38,1,0,Good,Family,North,Active,No Default
+CUST1013,Female,45,Master,Business,Married,2,565893,660,1,LN5013,Home,1913907,84,11.39,25379.77,20.55,14,0,Average,Family,South,Closed,No Default
+CUST1014,Male,22,Bachelor,Self-Employed,Married,2,1352341,654,0,LN5014,Auto,864661,48,13.23,20396.99,22.61,0,0,Average,Mortgaged,Central,Active,No Default
+CUST1015,Male,30,Bachelor,Employed,Married,0,1615601,612,0,LN5015,Education,1366303,84,11.67,18163.7,12.17,1,0,Average,Mortgaged,West,Defaulted,Default
+CUST1016,Male,50,Master,Business,Married,0,2405541,641,1,LN5016,Home,972401,60,10.23,17864.63,18.66,18,0,Average,Rented,North,Defaulted,Default
+CUST1017,Male,25,Bachelor,Self-Employed,Married,4,1425803,618,1,LN5017,Auto,563622,24,15.36,27091.43,23.33,1,0,Average,Owned,North,Active,No Default
+CUST1018,Male,53,High School,Employed,Married,1,1649793,612,4,LN5018,Home,1170113,12,12.34,109542.08,47.42,21,0,Average,Owned,South,Defaulted,Default
+CUST1019,Male,21,Master,Employed,Married,3,476208,769,1,LN5019,Education,1863353,48,9.46,42492.21,46.09,1,0,Good,Mortgaged,North,Defaulted,Default
+CUST1020,Male,38,Bachelor,Unemployed,Single,3,930186,620,3,LN5020,Home,447783,48,12.48,10493.05,49.97,7,1,Average,Mortgaged,East,Active,No Default
+CUST1021,Female,52,Master,Employed,Married,0,1278657,699,2,LN5021,Personal,949084,24,11.23,43986.09,31.15,19,0,Average,Family,Central,Rejected,Default
+CUST1022,Male,31,Bachelor,Employed,Married,3,2216982,682,1,LN5022,Personal,520455,60,12.56,9763.74,33.18,10,0,Average,Family,North,Defaulted,Default
+CUST1023,Male,41,Master,Employed,Married,0,1106215,792,1,LN5023,Personal,282117,12,9.48,25738.47,5.0,12,0,Good,Family,North,Defaulted,Default
+CUST1024,Male,46,Diploma,Self-Employed,Single,4,2493356,642,3,LN5024,Home,1871644,48,14.12,44498.34,44.61,16,0,Average,Family,South,Rejected,Default
+CUST1025,Male,45,Phd,Employed,Single,1,1629991,708,0,LN5025,Personal,500985,12,13.35,47322.21,11.09,12,0,Good,Owned,East,Approved,No Default
+CUST1026,Female,42,Master,Employed,Married,4,2025219,739,0,LN5026,Personal,2193184,48,10.0,50260.47,31.08,15,0,Good,Mortgaged,North,Approved,No Default
+CUST1027,Male,47,High School,Employed,Single,2,1339662,791,4,LN5027,Business,554910,60,10.21,10192.77,46.92,11,0,Good,Rented,Central,Defaulted,Default
+CUST1028,Male,33,Bachelor,Employed,Single,2,1154250,641,3,LN5028,Business,673090,72,12.6,10526.38,36.05,7,0,Average,Owned,Central,Active,No Default
+CUST1029,Female,53,Phd,Self-Employed,Single,2,604528,633,2,LN5029,Home,2079341,48,13.26,49063.78,37.9,27,0,Average,Family,North,Closed,No Default
+CUST1030,Male,54,Bachelor,Self-Employed,Single,4,1068403,600,2,LN5030,Business,2452114,72,15.62,39376.86,42.83,20,0,Average,Family,East,Closed,No Default
+CUST1031,Female,55,Diploma,Employed,Single,3,792181,847,3,LN5031,Personal,1985430,48,12.01,46330.84,57.65,17,0,Good,Owned,Central,Defaulted,Default
+CUST1032,Male,21,Bachelor,Employed,Married,1,2435915,783,2,LN5032,Auto,1819617,36,15.0,58126.65,39.99,0,0,Good,Owned,Central,Approved,No Default
+CUST1033,Male,41,Bachelor,Self-Employed,Married,2,1830824,676,0,LN5033,Auto,2488761,60,9.46,45403.3,26.74,10,0,Average,Mortgaged,East,Defaulted,Default
+CUST1034,Female,26,Master,Employed,Married,2,2099396,824,2,LN5034,Home,687509,24,9.25,31295.98,29.42,6,0,Good,Mortgaged,East,Approved,No Default
+CUST1035,Female,48,Bachelor,Employed,Married,2,1251177,672,2,LN5035,Home,2446629,72,15.64,39295.58,28.41,15,0,Average,Family,North,Closed,No Default
+CUST1036,Female,37,Bachelor,Unemployed,Married,1,1215811,734,3,LN5036,Home,1225033,24,9.29,55784.94,45.29,6,0,Good,Owned,West,Defaulted,Default
+CUST1037,Male,25,Diploma,Self-Employed,Single,2,319227,680,3,LN5037,Home,1377296,60,15.49,26510.65,41.4,0,0,Average,Owned,South,Approved,No Default
+CUST1038,Male,51,Bachelor,Employed,Single,1,1953055,709,2,LN5038,Auto,930432,84,12.59,12471.11,36.49,17,0,Good,Owned,West,Rejected,Default
+CUST1039,Female,25,Bachelor,Employed,Married,2,1178555,701,1,LN5039,Personal,516995,24,12.76,24290.15,38.82,2,0,Good,Owned,West,Approved,No Default
+CUST1040,Male,58,High School,Employed,Single,4,872137,648,3,LN5040,Personal,2083436,60,11.36,38668.57,35.89,22,0,Average,Owned,Central,Defaulted,Default
+CUST1041,Male,23,Master,Employed,Married,4,461854,761,4,LN5041,Personal,1412836,24,10.91,65290.68,65.18,4,0,Good,Family,East,Active,No Default
+CUST1042,Male,43,Bachelor,Employed,Married,1,859892,733,4,LN5042,Personal,2116905,72,14.63,33702.89,54.26,23,0,Good,Rented,Central,Defaulted,Default
+CUST1043,Male,57,Bachelor,Employed,Married,4,1881591,757,0,LN5043,Home,1609048,36,11.57,49867.08,13.56,13,0,Good,Rented,South,Defaulted,Default
+CUST1044,Female,57,Master,Employed,Single,1,2164681,704,2,LN5044,Personal,678474,24,11.77,31597.1,53.32,22,0,Good,Owned,North,Defaulted,Default
+CUST1045,Male,30,Bachelor,Unemployed,Single,4,1816091,612,1,LN5045,Business,739995,72,14.43,11760.78,38.57,5,0,Average,Owned,South,Defaulted,Default
+CUST1046,Female,30,Master,Business,Married,4,840327,808,0,LN5046,Personal,1679618,48,10.59,38697.7,26.17,0,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1047,Male,39,Bachelor,Employed,Single,1,1837153,660,2,LN5047,Personal,2240002,60,13.62,42418.17,38.65,14,0,Average,Mortgaged,Central,Active,No Default
+CUST1048,Male,37,High School,Employed,Married,3,331094,707,3,LN5048,Auto,1839055,12,11.12,170296.49,37.68,10,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1049,Male,41,Bachelor,Business,Married,4,1665255,727,4,LN5049,Personal,1661735,84,11.98,22152.51,58.37,14,0,Good,Rented,Central,Defaulted,Default
+CUST1050,Male,34,Bachelor,Employed,Divorced,2,1986684,706,1,LN5050,Auto,1292522,12,11.45,120042.98,24.65,0,0,Good,Rented,West,Defaulted,Default
+CUST1051,Female,29,Master,Employed,Single,3,1989858,748,4,LN5051,Auto,917392,60,9.07,16676.66,67.66,3,0,Good,Rented,North,Approved,No Default
+CUST1052,Female,21,High School,Unemployed,Married,1,659083,760,3,LN5052,Personal,1016325,36,12.32,31709.34,40.98,0,0,Good,Rented,West,Active,No Default
+CUST1053,Female,33,High School,Employed,Married,3,1574316,663,2,LN5053,Personal,1347776,24,11.2,62446.95,44.7,15,0,Average,Family,Central,Closed,No Default
+CUST1054,Female,24,Diploma,Self-Employed,Single,0,2081740,801,3,LN5054,Home,775527,36,10.74,23856.07,31.71,6,0,Good,Owned,East,Closed,No Default
+CUST1055,Female,21,Diploma,Unemployed,Single,0,1634089,659,3,LN5055,Personal,2091215,12,14.5,199536.76,44.53,0,0,Average,Mortgaged,West,Defaulted,Default
+CUST1056,Female,60,Master,Employed,Married,4,248323,705,4,LN5056,Personal,1553174,84,10.18,20372.47,53.9,15,0,Good,Owned,Central,Defaulted,Default
+CUST1057,Male,52,Diploma,Employed,Single,4,2270421,650,1,LN5057,Personal,1857317,72,14.16,29448.79,24.71,17,0,Average,Mortgaged,Central,Defaulted,Default
+CUST1058,Male,54,Bachelor,Employed,Single,2,1793559,629,3,LN5058,Personal,1533702,84,13.12,20653.85,41.09,22,0,Average,Family,North,Approved,No Default
+CUST1059,Male,48,Bachelor,Business,Single,3,570642,758,4,LN5059,Home,1303179,60,10.18,23930.71,66.95,7,0,Good,Mortgaged,South,Closed,No Default
+CUST1060,Male,51,Bachelor,Business,Married,0,2475936,850,1,LN5060,Auto,1779122,60,13.28,33589.82,32.87,12,0,Good,Rented,West,Active,No Default
+CUST1061,Male,28,Master,Business,Married,4,287096,652,2,LN5061,Auto,784172,36,13.22,24662.21,38.97,0,0,Average,Family,West,Defaulted,Default
+CUST1062,Male,59,Bachelor,Employed,Married,3,1321340,771,2,LN5062,Personal,159779,72,10.58,2453.94,24.55,24,0,Good,Mortgaged,West,Rejected,Default
+CUST1063,Female,46,Master,Business,Single,4,626790,655,0,LN5063,Personal,1117133,36,12.0,34755.25,23.34,12,0,Average,Owned,Central,Rejected,Default
+CUST1064,Male,54,Bachelor,Business,Single,4,1720724,679,4,LN5064,Business,502082,24,14.14,23878.18,42.75,16,0,Average,Owned,North,Active,No Default
+CUST1065,Male,23,Bachelor,Self-Employed,Married,0,1860989,811,1,LN5065,Auto,384248,48,9.92,8799.28,11.24,1,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1066,Male,32,Master,Unemployed,Married,0,2145730,599,3,LN5066,Business,1576369,72,15.15,25210.96,44.28,2,1,Poor,Mortgaged,Central,Approved,No Default
+CUST1067,Male,21,Diploma,Business,Single,4,548226,579,2,LN5067,Home,711440,48,14.31,16942.65,42.5,0,0,Poor,Rented,East,Defaulted,Default
+CUST1068,Female,25,High School,Self-Employed,Married,1,306310,673,1,LN5068,Auto,1243502,84,14.58,16961.96,42.86,7,0,Average,Rented,North,Active,No Default
+CUST1069,Male,50,Master,Self-Employed,Divorced,4,855673,729,4,LN5069,Home,2007021,24,10.5,92406.59,46.02,21,0,Good,Family,West,Approved,No Default
+CUST1070,Female,50,High School,Employed,Married,4,2068529,714,0,LN5070,Home,971872,48,10.94,22462.39,29.98,16,0,Good,Owned,South,Active,No Default
+CUST1071,Female,37,Master,Employed,Married,2,1274316,707,2,LN5071,Home,804981,12,11.97,75111.44,25.85,9,0,Good,Rented,West,Closed,No Default
+CUST1072,Male,43,Bachelor,Self-Employed,Divorced,2,286611,682,1,LN5072,Home,431325,84,12.47,5775.13,26.24,17,0,Average,Owned,Central,Active,No Default
+CUST1073,Male,35,Master,Employed,Single,2,953210,738,1,LN5073,Personal,863526,48,11.4,20041.0,29.22,8,0,Good,Family,North,Closed,No Default
+CUST1074,Female,57,Master,Business,Married,1,1816675,461,1,LN5074,Home,1013544,24,20.03,50689.87,25.5,18,5,Poor,Owned,North,Defaulted,Default
+CUST1075,Female,41,Bachelor,Unemployed,Divorced,1,886673,623,4,LN5075,Education,2476062,48,16.75,60225.05,46.93,11,0,Average,Mortgaged,North,Rejected,Default
+CUST1076,Female,34,Master,Business,Single,4,981849,672,4,LN5076,Business,1886309,60,13.37,35641.81,61.77,12,0,Average,Owned,East,Approved,No Default
+CUST1077,Female,22,Bachelor,Employed,Married,2,1908665,732,4,LN5077,Home,733970,36,12.65,22967.14,55.93,0,0,Good,Mortgaged,West,Approved,No Default
+CUST1078,Male,31,Master,Employed,Married,1,1341068,791,3,LN5078,Home,655751,12,10.78,60536.75,34.35,2,0,Good,Family,East,Closed,No Default
+CUST1079,Male,59,High School,Employed,Married,0,1215891,613,1,LN5079,Personal,1788614,60,12.23,33456.02,25.76,21,0,Average,Rented,South,Approved,No Default
+CUST1080,Male,58,Bachelor,Self-Employed,Married,4,933494,789,2,LN5080,Auto,523656,60,10.89,9678.04,48.35,22,0,Good,Rented,Central,Rejected,Default
+CUST1081,Female,54,Diploma,Business,Divorced,3,603177,646,4,LN5081,Home,1008379,24,14.47,48095.48,59.79,20,0,Average,Rented,East,Defaulted,Default
+CUST1082,Female,58,Bachelor,Business,Married,4,822762,670,4,LN5082,Business,1124657,36,14.91,35898.43,48.71,22,0,Average,Rented,East,Rejected,Default
+CUST1083,Male,54,High School,Employed,Single,3,947876,723,1,LN5083,Home,1122930,36,13.65,35450.28,39.17,14,2,Poor,Mortgaged,Central,Defaulted,Default
+CUST1084,Male,38,Master,Business,Married,2,1319904,664,4,LN5084,Home,667585,72,10.78,10271.54,51.65,12,1,Average,Owned,North,Approved,No Default
+CUST1085,Male,50,Master,Business,Single,3,1971376,763,3,LN5085,Auto,1744548,84,11.12,23077.88,36.97,16,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1086,Male,35,Master,Employed,Single,2,1263116,649,3,LN5086,Education,2182677,12,11.06,202006.76,49.4,4,0,Average,Owned,West,Defaulted,Default
+CUST1087,Female,47,High School,Business,Married,0,1386184,650,4,LN5087,Home,56464,84,15.0,773.02,45.21,17,0,Average,Owned,Central,Defaulted,Default
+CUST1088,Female,54,Bachelor,Employed,Married,3,1313276,758,1,LN5088,Home,1639426,24,11.01,75830.28,19.57,16,0,Good,Rented,North,Defaulted,Default
+CUST1089,Female,58,Bachelor,Employed,Married,4,1940511,622,1,LN5089,Business,1211140,12,13.6,114654.59,33.65,14,1,Average,Rented,Central,Active,No Default
+CUST1090,Male,53,Bachelor,Self-Employed,Divorced,2,569770,698,1,LN5090,Personal,1468767,72,13.25,23102.48,31.32,13,0,Average,Rented,East,Active,No Default
+CUST1091,Male,44,Bachelor,Employed,Married,4,226002,555,0,LN5091,Business,1885068,48,18.82,46663.29,25.15,11,1,Poor,Mortgaged,South,Defaulted,Default
+CUST1092,Female,35,Bachelor,Self-Employed,Married,1,595842,816,4,LN5092,Personal,1894277,60,11.16,35094.64,56.33,10,0,Good,Owned,East,Approved,No Default
+CUST1093,Female,50,Bachelor,Self-Employed,Single,2,895339,770,1,LN5093,Education,2341367,12,11.09,216752.05,41.12,12,0,Good,Owned,South,Active,No Default
+CUST1094,Male,37,Bachelor,Self-Employed,Divorced,3,1337522,850,3,LN5094,Auto,1645929,84,8.39,21238.36,42.44,7,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1095,Female,25,Bachelor,Employed,Divorced,2,1295244,780,2,LN5095,Home,315039,60,13.49,5958.96,33.06,0,0,Good,Family,West,Defaulted,Default
+CUST1096,Male,49,High School,Employed,Married,4,2376155,595,2,LN5096,Business,1441579,24,13.8,68354.87,40.95,19,0,Poor,Owned,Central,Closed,No Default
+CUST1097,Male,24,High School,Self-Employed,Single,0,1964006,730,1,LN5097,Personal,2126259,84,14.54,28993.06,24.4,8,0,Good,Mortgaged,North,Defaulted,Default
+CUST1098,Male,30,High School,Employed,Single,2,2497614,611,2,LN5098,Personal,1017241,48,15.49,24475.24,32.26,11,0,Average,Rented,Central,Rejected,Default
+CUST1099,Male,37,Master,Employed,Single,3,2058006,798,2,LN5099,Auto,2251279,24,10.34,103502.55,9.83,12,0,Good,Mortgaged,South,Defaulted,Default
+CUST1100,Male,30,High School,Employed,Single,1,899174,597,0,LN5100,Home,146426,48,11.96,3415.39,36.54,8,0,Poor,Family,East,Approved,No Default
+CUST1101,Male,37,High School,Self-Employed,Married,0,808889,593,3,LN5101,Auto,1290952,48,14.51,30797.27,38.0,0,0,Poor,Family,West,Defaulted,Default
+CUST1102,Female,40,Bachelor,Employed,Divorced,1,2338996,559,3,LN5102,Personal,1110538,60,13.69,21042.84,39.07,11,0,Poor,Mortgaged,Central,Approved,No Default
+CUST1103,Male,44,Master,Self-Employed,Married,2,1954029,643,0,LN5103,Personal,2180454,24,13.41,103035.54,27.6,10,0,Average,Owned,Central,Defaulted,Default
+CUST1104,Male,25,Master,Business,Single,4,575395,628,0,LN5104,Personal,1446102,24,15.15,69382.77,29.36,5,0,Average,Mortgaged,East,Active,No Default
+CUST1105,Female,54,Master,Employed,Single,4,1105779,585,2,LN5105,Personal,54011,12,11.74,5029.32,38.56,7,1,Poor,Rented,West,Rejected,Default
+CUST1106,Male,26,Bachelor,Employed,Single,3,2196654,829,4,LN5106,Home,2014724,84,10.96,26613.54,43.45,3,0,Good,Owned,Central,Defaulted,Default
+CUST1107,Male,22,Bachelor,Unemployed,Single,4,1723276,719,2,LN5107,Education,69782,24,13.35,3295.75,27.29,0,0,Good,Rented,Central,Rejected,Default
+CUST1108,Female,33,High School,Business,Single,0,1511420,710,0,LN5108,Business,2138097,12,13.56,202335.25,9.16,11,1,Average,Family,South,Rejected,Default
+CUST1109,Male,31,Master,Business,Single,4,2010791,799,3,LN5109,Education,482941,36,8.97,14618.36,39.07,11,1,Average,Family,South,Approved,No Default
+CUST1110,Male,43,Master,Business,Married,3,2370482,699,2,LN5110,Personal,1632060,36,13.14,51292.02,44.71,8,0,Average,Owned,North,Active,No Default
+CUST1111,Male,36,Bachelor,Employed,Divorced,2,405391,623,4,LN5111,Home,653151,36,15.46,20948.0,54.8,4,0,Average,Mortgaged,East,Defaulted,Default
+CUST1112,Male,51,Master,Employed,Single,2,2490758,552,2,LN5112,Personal,1873327,72,15.23,29981.04,29.95,17,0,Poor,Mortgaged,West,Approved,No Default
+CUST1113,Female,31,Master,Employed,Married,4,371387,619,1,LN5113,Personal,1834292,24,13.54,86777.3,14.69,12,0,Average,Owned,Central,Approved,No Default
+CUST1114,Female,36,Bachelor,Employed,Married,1,1469709,792,2,LN5114,Home,2378389,72,12.83,37271.34,34.57,8,0,Good,Rented,Central,Approved,No Default
+CUST1115,Female,28,Phd,Employed,Single,2,594170,585,0,LN5115,Personal,1890277,84,13.18,25469.23,21.63,0,0,Poor,Mortgaged,North,Defaulted,Default
+CUST1116,Female,24,Master,Employed,Single,4,1554073,706,3,LN5116,Personal,958063,24,10.12,43959.12,44.43,0,0,Good,Rented,Central,Active,No Default
+CUST1117,Female,60,Bachelor,Employed,Married,3,1703982,757,3,LN5117,Business,356024,12,11.34,33033.09,53.15,22,1,Average,Owned,East,Defaulted,Default
+CUST1118,Male,24,Bachelor,Business,Single,4,542916,701,0,LN5118,Home,164003,72,13.29,2580.54,31.11,2,0,Good,Mortgaged,North,Active,No Default
+CUST1119,Female,45,High School,Self-Employed,Married,2,358048,709,1,LN5119,Home,1237968,72,13.92,19587.4,23.19,10,1,Average,Family,East,Rejected,Default
+CUST1120,Male,23,Bachelor,Employed,Married,3,1178082,729,0,LN5120,Personal,2196741,84,12.86,29514.78,17.85,0,0,Good,Mortgaged,North,Approved,No Default
+CUST1121,Female,52,High School,Business,Single,4,1582222,708,2,LN5121,Personal,300606,72,13.63,4744.15,39.9,13,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1122,Female,23,Bachelor,Employed,Single,0,1604663,800,0,LN5122,Business,781636,48,12.57,18330.99,12.75,5,0,Good,Rented,North,Defaulted,Default
+CUST1123,Male,47,Phd,Business,Married,3,866268,601,0,LN5123,Personal,610185,12,13.48,57703.16,26.92,10,0,Average,Owned,South,Active,No Default
+CUST1124,Male,49,Bachelor,Employed,Single,0,981955,698,1,LN5124,Home,2336789,36,12.31,72901.33,34.21,13,0,Average,Mortgaged,West,Closed,No Default
+CUST1125,Male,52,Bachelor,Unemployed,Single,1,1291009,543,2,LN5125,Personal,736290,12,16.79,71659.42,23.46,15,1,Poor,Rented,Central,Defaulted,Default
+CUST1126,Male,39,Bachelor,Self-Employed,Married,3,2193148,524,4,LN5126,Home,1811169,48,13.32,42758.68,52.2,3,0,Poor,Family,West,Approved,No Default
+CUST1127,Female,41,High School,Employed,Married,0,452919,673,4,LN5127,Personal,1899388,84,13.55,25675.66,51.32,7,0,Average,Owned,Central,Defaulted,Default
+CUST1128,Female,25,Master,Employed,Single,2,1699593,720,3,LN5128,Education,1830832,84,11.12,24219.29,42.31,7,1,Average,Rented,West,Rejected,Default
+CUST1129,Male,38,Diploma,Employed,Married,2,1158754,802,0,LN5129,Education,2414825,24,12.62,113315.66,30.77,4,0,Good,Rented,South,Defaulted,Default
+CUST1130,Male,48,High School,Employed,Married,1,327745,850,3,LN5130,Education,807582,12,10.22,74176.41,38.2,10,0,Good,Family,West,Defaulted,Default
+CUST1131,Male,42,Bachelor,Employed,Married,3,1910992,778,1,LN5131,Personal,2230139,84,11.34,29559.96,34.87,6,0,Good,Owned,North,Active,No Default
+CUST1132,Male,41,Master,Self-Employed,Married,3,317686,734,4,LN5132,Education,1482672,72,14.58,23595.08,55.03,10,0,Good,Owned,West,Active,No Default
+CUST1133,Male,26,Master,Employed,Married,3,2247636,691,0,LN5133,Home,614174,84,11.02,8117.33,22.92,10,0,Average,Owned,Central,Active,No Default
+CUST1134,Male,21,High School,Self-Employed,Married,1,1235991,565,1,LN5134,Home,1672563,84,14.85,22868.32,44.43,0,0,Poor,Family,East,Approved,No Default
+CUST1135,Female,25,Bachelor,Business,Divorced,3,1998902,669,1,LN5135,Auto,1699260,84,12.69,22796.38,38.12,2,0,Average,Owned,West,Active,No Default
+CUST1136,Male,32,Bachelor,Employed,Single,2,1665676,776,0,LN5136,Personal,1713542,84,12.16,22879.87,35.42,2,0,Good,Owned,West,Defaulted,Default
+CUST1137,Male,46,Bachelor,Self-Employed,Married,0,2163044,747,1,LN5137,Personal,2257928,36,14.69,71933.82,34.57,13,1,Average,Owned,West,Defaulted,Default
+CUST1138,Female,54,Bachelor,Employed,Single,2,1135230,583,0,LN5138,Auto,260809,36,13.35,8211.86,27.62,23,1,Poor,Mortgaged,Central,Closed,No Default
+CUST1139,Male,34,Bachelor,Self-Employed,Single,2,229976,726,0,LN5139,Personal,1270192,24,10.31,58381.2,36.09,7,0,Good,Owned,West,Defaulted,Default
+CUST1140,Female,46,Bachelor,Employed,Single,0,391509,719,2,LN5140,Auto,1463967,84,11.0,19345.28,33.5,22,0,Good,Rented,Central,Defaulted,Default
+CUST1141,Female,47,Bachelor,Unemployed,Divorced,2,2207320,706,3,LN5141,Home,583285,12,12.06,54469.1,37.16,19,0,Good,Owned,Central,Defaulted,Default
+CUST1142,Male,29,Master,Business,Divorced,1,1992105,677,1,LN5142,Business,922143,48,12.94,21697.26,28.62,4,0,Average,Rented,East,Approved,No Default
+CUST1143,Male,46,Bachelor,Employed,Single,0,1747399,729,1,LN5143,Business,1732978,24,12.24,81045.6,17.95,13,0,Good,Mortgaged,North,Defaulted,Default
+CUST1144,Male,42,Bachelor,Employed,Single,2,2496678,732,2,LN5144,Business,1985772,12,14.72,189839.8,20.19,18,0,Good,Rented,Central,Closed,No Default
+CUST1145,Male,50,Bachelor,Business,Married,4,2127238,631,2,LN5145,Personal,2254193,84,15.97,31121.28,35.18,16,0,Average,Family,South,Closed,No Default
+CUST1146,Male,37,Bachelor,Business,Married,2,2275013,714,2,LN5146,Personal,424368,60,14.24,8079.97,37.58,14,0,Good,Family,West,Rejected,Default
+CUST1147,Female,46,Master,Employed,Single,1,1575796,665,4,LN5147,Home,2472952,84,16.8,34385.81,55.0,21,0,Average,Rented,South,Active,No Default
+CUST1148,Male,56,Bachelor,Employed,Married,3,1174620,568,4,LN5148,Personal,1911663,36,15.72,61449.35,44.66,18,0,Poor,Mortgaged,West,Active,No Default
+CUST1149,Male,21,Bachelor,Business,Married,2,2315730,637,4,LN5149,Personal,1219694,48,15.11,29249.79,57.08,1,0,Average,Mortgaged,East,Defaulted,Default
+CUST1150,Male,28,Master,Employed,Divorced,3,794741,562,0,LN5150,Auto,1101690,72,15.78,17715.79,17.81,7,2,Poor,Family,Central,Defaulted,Default
+CUST1151,Female,55,Bachelor,Business,Single,4,388859,753,1,LN5151,Home,99768,48,12.67,2341.85,28.64,21,0,Good,Rented,North,Defaulted,Default
+CUST1152,Male,35,Bachelor,Employed,Married,2,2388587,706,3,LN5152,Business,1511820,72,13.0,23727.18,54.59,10,0,Good,Rented,Central,Active,No Default
+CUST1153,Male,42,Master,Employed,Married,0,1380114,653,0,LN5153,Personal,1023069,48,12.61,24001.63,20.38,6,0,Average,Rented,West,Rejected,Default
+CUST1154,Male,34,Bachelor,Business,Married,3,225475,786,1,LN5154,Personal,2230275,36,9.34,67738.41,32.11,3,0,Good,Family,North,Approved,No Default
+CUST1155,Female,46,Bachelor,Employed,Married,4,1382060,685,1,LN5155,Personal,2313557,72,12.53,36158.97,37.88,11,1,Average,Owned,Central,Approved,No Default
+CUST1156,Male,48,Phd,Employed,Married,0,1279577,572,2,LN5156,Business,2150326,12,15.27,206556.73,22.35,19,0,Poor,Owned,North,Closed,No Default
+CUST1157,Female,43,High School,Employed,Single,0,1024081,647,2,LN5157,Education,167769,72,13.4,2642.36,29.35,7,1,Average,Rented,West,Defaulted,Default
+CUST1158,Female,34,Diploma,Employed,Married,0,2469181,802,0,LN5158,Education,347542,24,9.37,15837.78,20.02,13,0,Good,Owned,East,Rejected,Default
+CUST1159,Male,44,Bachelor,Self-Employed,Married,0,608733,629,2,LN5159,Business,1484269,12,13.32,140164.47,41.85,15,0,Average,Rented,East,Defaulted,Default
+CUST1160,Female,22,Master,Employed,Single,2,1782970,700,1,LN5160,Home,816868,24,12.17,38178.37,17.64,5,0,Good,Owned,Central,Rejected,Default
+CUST1161,Male,46,High School,Self-Employed,Married,2,1711064,735,2,LN5161,Home,1285069,84,11.88,17115.9,51.1,10,0,Good,Rented,South,Defaulted,Default
+CUST1162,Female,34,High School,Business,Single,2,397583,724,4,LN5162,Home,1908768,48,12.88,44887.86,48.0,7,0,Good,Family,West,Defaulted,Default
+CUST1163,Female,27,High School,Self-Employed,Single,4,2415438,850,2,LN5163,Auto,978864,12,11.31,90797.79,33.12,4,0,Good,Rented,Central,Defaulted,Default
+CUST1164,Male,23,High School,Employed,Married,4,407189,591,1,LN5164,Home,1764249,48,13.38,41673.03,25.67,2,0,Poor,Mortgaged,Central,Closed,No Default
+CUST1165,Male,43,High School,Employed,Married,4,2231811,599,0,LN5165,Home,817166,84,15.49,11235.06,32.19,13,0,Poor,Owned,East,Defaulted,Default
+CUST1166,Female,38,Bachelor,Business,Married,1,2256198,593,3,LN5166,Business,2364222,60,15.8,45629.48,29.72,8,0,Poor,Owned,North,Approved,No Default
+CUST1167,Male,58,Bachelor,Business,Single,4,1648919,657,2,LN5167,Business,449017,48,13.63,10629.54,37.52,20,0,Average,Mortgaged,West,Active,No Default
+CUST1168,Male,55,Diploma,Self-Employed,Married,2,2236501,762,1,LN5168,Education,981775,84,12.57,13156.95,29.0,22,0,Good,Mortgaged,North,Approved,No Default
+CUST1169,Male,35,Bachelor,Employed,Single,2,984807,602,3,LN5169,Education,1507867,48,15.45,36267.34,52.15,3,0,Average,Rented,West,Approved,No Default
+CUST1170,Female,45,High School,Employed,Single,1,1600858,763,3,LN5170,Auto,1594247,84,9.91,20859.96,48.65,19,0,Good,Family,South,Defaulted,Default
+CUST1171,Female,57,Bachelor,Business,Divorced,1,1928982,682,4,LN5171,Personal,897374,24,14.35,42756.13,41.36,23,0,Average,Family,East,Active,No Default
+CUST1172,Male,48,Bachelor,Business,Married,4,1625065,596,3,LN5172,Personal,2291085,84,12.87,30785.09,46.3,10,0,Poor,Family,South,Defaulted,Default
+CUST1173,Male,30,Master,Self-Employed,Married,3,882495,548,1,LN5173,Auto,1298749,72,13.74,20516.63,20.74,6,0,Poor,Rented,Central,Rejected,Default
+CUST1174,Male,59,High School,Business,Single,1,1593562,565,1,LN5174,Auto,726337,60,14.82,13899.67,12.19,24,0,Poor,Owned,East,Active,No Default
+CUST1175,Female,37,Bachelor,Business,Married,0,2176961,630,2,LN5175,Personal,2073553,48,10.33,47661.48,22.17,3,0,Average,Mortgaged,Central,Defaulted,Default
+CUST1176,Male,59,Diploma,Employed,Married,2,1718814,667,2,LN5176,Business,1316302,84,13.26,17748.14,45.98,21,0,Average,Mortgaged,South,Closed,No Default
+CUST1177,Female,42,Master,Employed,Married,0,258077,780,2,LN5177,Personal,2146419,84,12.77,28815.68,38.24,11,0,Good,Owned,West,Defaulted,Default
+CUST1178,Male,46,Bachelor,Employed,Married,2,1434352,739,3,LN5178,Personal,142172,48,9.45,3241.82,46.07,11,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1179,Female,45,Bachelor,Employed,Single,2,495018,617,3,LN5179,Auto,720990,60,15.38,13864.64,31.34,13,1,Average,Owned,North,Rejected,Default
+CUST1180,Male,37,Diploma,Business,Single,1,2346239,710,4,LN5180,Personal,594344,60,11.3,11025.08,40.81,6,0,Good,Rented,West,Defaulted,Default
+CUST1181,Male,33,Master,Employed,Married,1,2027305,803,2,LN5181,Personal,1237030,84,11.27,16386.23,27.64,12,0,Good,Rented,West,Defaulted,Default
+CUST1182,Male,40,High School,Employed,Single,0,1993205,820,0,LN5182,Home,1154315,12,9.87,105687.16,18.67,7,0,Good,Mortgaged,South,Rejected,Default
+CUST1183,Female,45,High School,Employed,Single,2,1821232,656,4,LN5183,Education,98639,24,14.02,4686.17,47.17,16,0,Average,Rented,South,Defaulted,Default
+CUST1184,Female,24,Bachelor,Employed,Divorced,0,1569678,751,0,LN5184,Home,646682,60,13.27,12208.28,11.98,0,1,Average,Family,East,Approved,No Default
+CUST1185,Male,30,High School,Employed,Married,3,431514,784,3,LN5185,Auto,379801,60,12.21,7102.91,48.29,4,0,Good,Rented,East,Defaulted,Default
+CUST1186,Female,23,Master,Employed,Married,0,1108660,566,4,LN5186,Auto,1930164,36,14.5,61389.94,45.83,1,1,Poor,Mortgaged,North,Defaulted,Default
+CUST1187,Female,38,Master,Self-Employed,Married,4,2419332,641,4,LN5187,Personal,232447,72,12.67,3637.47,48.17,8,0,Average,Family,West,Defaulted,Default
+CUST1188,Male,56,Diploma,Employed,Married,0,2148880,846,1,LN5188,Business,2495738,60,10.21,45842.55,28.43,17,0,Good,Mortgaged,North,Approved,No Default
+CUST1189,Male,42,Bachelor,Self-Employed,Single,4,964192,657,3,LN5189,Personal,724932,24,14.13,34473.54,56.99,8,0,Average,Family,North,Defaulted,Default
+CUST1190,Male,54,Phd,Employed,Single,4,2249694,460,3,LN5190,Business,430069,72,17.14,6996.98,59.42,21,1,Poor,Owned,South,Defaulted,Default
+CUST1191,Male,28,Master,Employed,Single,4,615928,670,4,LN5191,Home,54136,72,13.78,855.5,57.93,7,0,Average,Rented,North,Rejected,Default
+CUST1192,Female,60,Bachelor,Employed,Married,3,1100114,764,3,LN5192,Business,2209020,48,9.62,50448.49,49.19,21,0,Good,Owned,North,Defaulted,Default
+CUST1193,Female,39,Master,Self-Employed,Married,0,781891,680,4,LN5193,Personal,2491559,48,12.77,58536.06,42.08,5,0,Average,Owned,Central,Defaulted,Default
+CUST1194,Female,57,Phd,Self-Employed,Single,0,1501448,733,1,LN5194,Home,160957,48,11.05,3723.81,34.24,26,0,Good,Family,East,Rejected,Default
+CUST1195,Male,26,Master,Employed,Married,3,1717111,750,4,LN5195,Personal,589767,48,12.75,13853.38,42.94,0,1,Average,Owned,East,Active,No Default
+CUST1196,Male,46,High School,Employed,Married,2,2362926,653,3,LN5196,Personal,169392,36,12.06,5272.8,50.31,7,0,Average,Rented,West,Defaulted,Default
+CUST1197,Female,54,Bachelor,Self-Employed,Single,1,2153343,641,3,LN5197,Auto,710183,60,14.06,13500.58,38.2,10,1,Average,Rented,East,Rejected,Default
+CUST1198,Female,26,Master,Employed,Married,0,592672,691,4,LN5198,Personal,1300104,48,12.21,30392.64,55.93,3,0,Average,Rented,West,Closed,No Default
+CUST1199,Female,57,Diploma,Employed,Single,1,1294518,693,4,LN5199,Auto,856017,84,9.79,11188.35,51.21,18,0,Average,Rented,Central,Defaulted,Default
+CUST1200,Female,53,Master,Business,Single,3,717977,684,4,LN5200,Personal,2033352,12,14.14,193405.66,50.96,21,0,Average,Mortgaged,East,Closed,No Default
+CUST1201,Female,42,High School,Self-Employed,Single,2,2179014,687,2,LN5201,Home,1911627,48,12.66,44867.48,35.11,13,0,Average,Owned,Central,Defaulted,Default
+CUST1202,Male,41,High School,Employed,Single,2,1738141,623,3,LN5202,Education,911501,60,15.57,17557.03,47.2,12,0,Average,Rented,East,Approved,No Default
+CUST1203,Male,26,Bachelor,Business,Married,2,2028058,736,3,LN5203,Home,315864,48,9.46,7203.02,46.82,1,0,Good,Mortgaged,East,Defaulted,Default
+CUST1204,Female,26,High School,Business,Single,3,770504,724,2,LN5204,Auto,331411,36,11.7,10282.95,36.31,7,0,Good,Mortgaged,Central,Approved,No Default
+CUST1205,Female,24,Master,Employed,Single,4,2339173,579,4,LN5205,Auto,1245344,24,13.99,59148.65,54.73,9,0,Poor,Rented,North,Active,No Default
+CUST1206,Male,50,Master,Self-Employed,Married,4,640115,650,1,LN5206,Education,735328,24,13.66,34823.91,43.17,19,0,Average,Family,North,Defaulted,Default
+CUST1207,Male,31,Master,Self-Employed,Single,1,222291,686,4,LN5207,Home,2462660,60,10.72,45444.29,35.59,3,0,Average,Rented,North,Rejected,Default
+CUST1208,Female,50,Bachelor,Employed,Married,4,608276,639,4,LN5208,Auto,466561,84,14.23,6344.67,59.81,19,0,Average,Rented,North,Defaulted,Default
+CUST1209,Male,51,Diploma,Employed,Married,4,574754,727,2,LN5209,Business,101567,24,14.96,4865.06,46.17,14,0,Good,Owned,East,Approved,No Default
+CUST1210,Male,44,Bachelor,Employed,Married,2,483664,674,3,LN5210,Auto,2238381,24,13.6,105950.03,52.49,8,0,Average,Rented,South,Defaulted,Default
+CUST1211,Male,29,Bachelor,Self-Employed,Married,2,2302827,692,4,LN5211,Home,1575450,12,12.76,148039.78,43.27,0,0,Average,Mortgaged,Central,Defaulted,Default
+CUST1212,Female,23,Bachelor,Employed,Single,1,853647,649,3,LN5212,Auto,1819361,60,11.2,33718.82,40.55,0,0,Average,Owned,South,Rejected,Default
+CUST1213,Female,51,Diploma,Business,Married,0,2248671,530,0,LN5213,Auto,657132,84,13.89,8909.61,21.64,16,0,Poor,Rented,South,Rejected,Default
+CUST1214,Male,60,Bachelor,Self-Employed,Single,1,888672,526,3,LN5214,Auto,1262567,60,15.03,24205.51,46.41,29,2,Poor,Mortgaged,West,Rejected,Default
+CUST1215,Female,57,Bachelor,Employed,Married,1,2158192,724,1,LN5215,Personal,1680060,24,11.35,77947.78,31.93,16,0,Good,Rented,North,Closed,No Default
+CUST1216,Male,56,Phd,Self-Employed,Single,3,517369,700,1,LN5216,Personal,674913,24,14.04,32069.62,23.58,24,0,Good,Owned,East,Closed,No Default
+CUST1217,Male,44,Master,Employed,Married,3,492863,712,4,LN5217,Education,1571193,24,13.12,74055.56,53.83,11,0,Good,Mortgaged,North,Closed,No Default
+CUST1218,Female,51,Bachelor,Self-Employed,Married,1,2407039,690,3,LN5218,Personal,967999,72,16.69,15688.31,56.53,8,1,Average,Owned,North,Defaulted,Default
+CUST1219,Female,26,Bachelor,Self-Employed,Single,1,476063,696,4,LN5219,Auto,2083764,36,11.09,64301.48,51.39,0,0,Average,Family,South,Defaulted,Default
+CUST1220,Female,22,Master,Employed,Single,1,1563875,752,2,LN5220,Home,444768,48,11.77,10356.61,47.6,5,0,Good,Owned,West,Defaulted,Default
+CUST1221,Female,40,High School,Employed,Married,4,2056336,713,1,LN5221,Home,101272,36,10.23,3100.89,44.34,11,0,Good,Mortgaged,North,Active,No Default
+CUST1222,Male,48,Master,Employed,Married,3,738963,758,4,LN5222,Personal,299264,60,8.3,5401.72,62.4,16,0,Good,Rented,Central,Active,No Default
+CUST1223,Male,31,Master,Employed,Single,1,1723586,692,2,LN5223,Personal,286538,12,13.7,27149.48,36.98,10,0,Average,Family,Central,Active,No Default
+CUST1224,Male,24,Bachelor,Employed,Married,2,2458669,657,4,LN5224,Business,565447,48,13.89,13416.41,53.17,0,0,Average,Owned,North,Defaulted,Default
+CUST1225,Male,35,Bachelor,Employed,Divorced,2,2347457,694,3,LN5225,Business,203706,12,11.31,18895.43,45.04,3,0,Average,Mortgaged,South,Defaulted,Default
+CUST1226,Male,26,Diploma,Unemployed,Married,4,872924,617,3,LN5226,Auto,2486300,84,13.88,33707.12,48.03,0,0,Average,Rented,South,Defaulted,Default
+CUST1227,Female,50,Bachelor,Employed,Single,4,1841655,651,3,LN5227,Home,1023902,72,12.29,15968.6,53.94,19,0,Average,Rented,East,Approved,No Default
+CUST1228,Male,58,High School,Employed,Married,0,658108,693,3,LN5228,Auto,803818,60,11.86,14985.85,33.83,22,0,Average,Rented,West,Approved,No Default
+CUST1229,Female,22,Master,Self-Employed,Single,0,774821,692,0,LN5229,Auto,877150,72,12.14,13661.61,35.08,3,0,Average,Mortgaged,South,Active,No Default
+CUST1230,Female,35,High School,Employed,Divorced,0,2464408,672,2,LN5230,Auto,1836852,60,11.58,34159.32,24.58,2,0,Average,Family,East,Defaulted,Default
+CUST1231,Female,31,Bachelor,Unemployed,Married,4,656128,575,2,LN5231,Personal,2436166,12,13.3,230014.67,48.49,0,0,Poor,Owned,Central,Defaulted,Default
+CUST1232,Male,28,Master,Self-Employed,Single,4,1203920,727,3,LN5232,Auto,888489,12,11.06,82229.66,59.03,0,0,Good,Owned,Central,Defaulted,Default
+CUST1233,Male,46,Master,Business,Married,4,1213668,742,0,LN5233,Education,1178371,12,12.5,110472.28,28.59,10,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1234,Male,25,Diploma,Employed,Single,2,1622181,803,3,LN5234,Business,392553,60,6.79,6986.79,34.1,8,0,Good,Owned,North,Closed,No Default
+CUST1235,Male,26,Diploma,Employed,Divorced,4,1590023,713,0,LN5235,Personal,92137,24,11.96,4298.19,39.24,6,0,Good,Family,West,Defaulted,Default
+CUST1236,Female,46,High School,Employed,Divorced,2,1033823,680,3,LN5236,Auto,1491945,12,11.17,138216.27,44.63,11,0,Average,Mortgaged,East,Defaulted,Default
+CUST1237,Male,24,Bachelor,Business,Married,0,1548722,604,1,LN5237,Auto,188925,72,12.36,2948.28,32.51,2,0,Average,Mortgaged,West,Closed,No Default
+CUST1238,Male,39,High School,Employed,Single,0,477675,791,1,LN5238,Home,983296,84,10.35,12917.47,25.12,7,0,Good,Owned,North,Closed,No Default
+CUST1239,Female,40,Bachelor,Employed,Married,0,888175,698,4,LN5239,Personal,2268321,48,12.51,53168.5,57.86,11,0,Average,Owned,East,Rejected,Default
+CUST1240,Male,53,Master,Unemployed,Single,1,2047306,694,3,LN5240,Home,1268015,60,12.27,23726.67,23.56,13,1,Average,Mortgaged,East,Rejected,Default
+CUST1241,Female,40,High School,Employed,Single,1,443625,660,2,LN5241,Home,425233,72,11.5,6585.21,37.51,13,0,Average,Family,South,Defaulted,Default
+CUST1242,Female,32,Master,Employed,Married,3,1022840,656,4,LN5242,Home,1030960,36,14.24,32715.8,62.23,2,0,Average,Family,West,Approved,No Default
+CUST1243,Female,21,Phd,Employed,Single,3,380339,731,1,LN5243,Auto,1633913,84,10.68,21528.75,34.34,3,0,Good,Owned,West,Approved,No Default
+CUST1244,Male,46,High School,Unemployed,Single,3,1874814,603,3,LN5244,Auto,1784635,36,12.85,55943.35,47.92,12,0,Average,Owned,South,Active,No Default
+CUST1245,Male,34,Master,Employed,Divorced,1,1114339,801,4,LN5245,Auto,2007792,48,11.41,46601.69,43.03,3,0,Good,Owned,Central,Approved,No Default
+CUST1246,Female,58,Bachelor,Business,Single,1,305355,785,3,LN5246,Business,884123,24,11.71,41152.24,40.67,26,0,Good,Family,North,Defaulted,Default
+CUST1247,Male,57,Master,Business,Single,3,207798,653,1,LN5247,Home,1266688,12,12.29,118530.33,20.13,20,0,Average,Owned,West,Defaulted,Default
+CUST1248,Female,31,Bachelor,Employed,Divorced,3,795937,615,4,LN5248,Personal,274062,60,9.37,4995.69,45.75,4,0,Average,Owned,South,Defaulted,Default
+CUST1249,Female,56,Bachelor,Self-Employed,Single,4,1555607,528,1,LN5249,Auto,2205138,72,13.75,34838.12,29.71,22,0,Poor,Owned,East,Rejected,Default
+CUST1250,Female,33,Bachelor,Employed,Married,3,199477,586,0,LN5250,Personal,481978,12,14.45,45968.65,32.85,1,1,Poor,Rented,South,Active,No Default
+CUST1251,Male,23,Master,Employed,Divorced,4,2494552,734,1,LN5251,Home,1777536,72,13.02,27902.38,31.43,5,0,Good,Family,Central,Defaulted,Default
+CUST1252,Male,53,Master,Business,Divorced,2,2189606,703,3,LN5252,Personal,1839639,60,12.34,34444.17,38.66,17,0,Good,Rented,North,Defaulted,Default
+CUST1253,Female,26,Bachelor,Business,Married,1,1739757,717,2,LN5253,Personal,1203891,36,11.53,37297.21,31.48,5,0,Good,Owned,Central,Rejected,Default
+CUST1254,Male,30,Master,Self-Employed,Single,3,2142434,541,1,LN5254,Education,2466500,12,18.32,243196.9,27.51,0,0,Poor,Rented,East,Active,No Default
+CUST1255,Male,25,Diploma,Employed,Single,1,585105,650,2,LN5255,Personal,752214,48,12.69,17659.79,36.65,0,0,Average,Rented,East,Defaulted,Default
+CUST1256,Male,43,High School,Employed,Married,1,2157334,782,0,LN5256,Home,1566589,24,12.19,73231.51,25.52,12,0,Good,Owned,East,Approved,No Default
+CUST1257,Female,30,High School,Employed,Married,1,453586,672,4,LN5257,Personal,1838205,48,10.92,42477.85,53.1,9,0,Average,Owned,East,Defaulted,Default
+CUST1258,Female,22,Bachelor,Employed,Married,2,2061297,584,4,LN5258,Auto,1810143,24,12.6,84925.88,54.22,3,1,Poor,Mortgaged,South,Rejected,Default
+CUST1259,Male,33,Diploma,Employed,Single,0,2068755,671,2,LN5259,Home,275687,84,13.91,3738.51,36.42,5,0,Average,Owned,East,Defaulted,Default
+CUST1260,Male,60,Master,Employed,Single,3,1003759,622,4,LN5260,Auto,1394700,72,15.24,22322.95,48.87,22,0,Average,Owned,East,Closed,No Default
+CUST1261,Female,22,High School,Employed,Single,0,514971,705,1,LN5261,Home,2292365,12,11.84,213648.42,22.86,5,0,Good,Rented,South,Closed,No Default
+CUST1262,Female,40,Bachelor,Employed,Married,0,1859328,681,2,LN5262,Personal,2121088,12,10.01,194450.74,25.03,9,0,Average,Mortgaged,East,Active,No Default
+CUST1263,Male,21,Diploma,Employed,Married,0,311184,720,3,LN5263,Home,2163048,84,11.95,28827.76,30.89,0,0,Good,Rented,Central,Defaulted,Default
+CUST1264,Male,57,Master,Employed,Divorced,1,1315627,588,1,LN5264,Personal,2236505,24,14.46,106662.65,30.05,12,1,Poor,Mortgaged,Central,Defaulted,Default
+CUST1265,Female,29,Master,Business,Married,4,2427805,646,1,LN5265,Home,79813,36,13.46,2515.44,30.24,3,0,Average,Rented,West,Approved,No Default
+CUST1266,Female,37,Bachelor,Employed,Single,1,425300,761,1,LN5266,Home,716041,60,10.74,13215.73,40.25,1,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1267,Female,29,Master,Unemployed,Married,1,764010,578,3,LN5267,Business,1826839,48,14.1,43425.49,40.2,3,0,Poor,Owned,North,Rejected,Default
+CUST1268,Female,31,High School,Business,Married,0,272036,604,0,LN5268,Personal,1496374,84,12.82,20097.73,32.01,9,2,Poor,Family,North,Active,No Default
+CUST1269,Male,35,Master,Employed,Married,1,1981498,694,4,LN5269,Auto,2356907,72,10.92,36309.46,51.07,0,1,Average,Owned,North,Rejected,Default
+CUST1270,Male,44,Diploma,Business,Married,0,2424747,701,2,LN5270,Personal,323541,84,13.62,4376.28,25.78,17,0,Good,Rented,South,Approved,No Default
+CUST1271,Female,58,Master,Self-Employed,Married,4,1033392,643,0,LN5271,Home,1536056,48,13.5,36321.32,29.5,19,0,Average,Mortgaged,Central,Defaulted,Default
+CUST1272,Female,55,High School,Self-Employed,Married,3,2001573,659,2,LN5272,Home,1665181,48,12.89,39162.98,26.11,18,1,Average,Rented,North,Defaulted,Default
+CUST1273,Female,50,Bachelor,Employed,Single,0,461696,719,4,LN5273,Business,2362857,72,11.45,36575.06,45.52,13,0,Good,Family,West,Defaulted,Default
+CUST1274,Female,51,Master,Employed,Single,4,1370456,743,3,LN5274,Personal,1400816,72,11.58,21708.76,42.51,9,0,Good,Rented,South,Active,No Default
+CUST1275,Male,25,Diploma,Employed,Married,3,415419,599,1,LN5275,Personal,2463081,12,14.26,234526.36,24.59,0,0,Poor,Family,West,Defaulted,Default
+CUST1276,Male,34,Diploma,Employed,Single,2,1170029,707,1,LN5276,Home,2199496,48,14.99,52691.68,43.18,15,0,Good,Mortgaged,Central,Approved,No Default
+CUST1277,Female,31,High School,Self-Employed,Single,0,334692,793,3,LN5277,Personal,820348,60,12.09,15325.47,46.24,1,0,Good,Family,East,Approved,No Default
+CUST1278,Female,29,Bachelor,Self-Employed,Single,0,443031,671,0,LN5278,Personal,956814,60,11.94,17850.96,28.02,0,0,Average,Family,West,Defaulted,Default
+CUST1279,Female,54,Bachelor,Employed,Married,2,1837888,599,0,LN5279,Auto,2087171,24,13.03,98297.06,31.26,18,0,Poor,Family,East,Defaulted,Default
+CUST1280,Female,32,High School,Self-Employed,Single,2,822927,595,2,LN5280,Personal,508819,84,12.86,6836.35,27.12,5,0,Poor,Mortgaged,South,Rejected,Default
+CUST1281,Female,55,Bachelor,Employed,Married,0,2133256,667,3,LN5281,Personal,1258060,72,12.69,19690.39,34.8,17,0,Average,Rented,West,Defaulted,Default
+CUST1282,Male,55,High School,Employed,Divorced,2,2004964,757,0,LN5282,Auto,1209065,12,10.43,111264.21,22.28,18,0,Good,Owned,West,Approved,No Default
+CUST1283,Male,21,Master,Business,Single,1,1568509,676,3,LN5283,Home,494874,60,13.57,9367.14,26.82,2,0,Average,Mortgaged,South,Approved,No Default
+CUST1284,Male,60,High School,Employed,Single,3,663779,694,4,LN5284,Personal,1541341,36,8.62,46505.68,47.04,19,0,Average,Family,South,Active,No Default
+CUST1285,Male,42,Diploma,Employed,Single,3,750508,605,1,LN5285,Personal,2158701,12,14.73,206389.8,29.13,12,0,Average,Mortgaged,North,Approved,No Default
+CUST1286,Male,49,High School,Employed,Married,3,559270,753,1,LN5286,Auto,2172891,12,12.12,203020.45,34.51,19,0,Good,Family,Central,Closed,No Default
+CUST1287,Male,28,Bachelor,Employed,Single,1,2096494,594,1,LN5287,Personal,857641,60,15.98,16578.2,48.76,0,0,Poor,Mortgaged,West,Approved,No Default
+CUST1288,Male,31,Master,Unemployed,Single,2,1748146,642,3,LN5288,Home,2104048,36,14.69,67031.46,42.83,0,0,Average,Owned,West,Rejected,Default
+CUST1289,Male,57,Bachelor,Self-Employed,Single,4,663455,727,3,LN5289,Personal,1113692,24,11.07,51540.74,49.01,22,0,Good,Owned,South,Closed,No Default
+CUST1290,Female,34,High School,Unemployed,Married,2,2399484,527,2,LN5290,Auto,594333,60,16.24,11514.21,35.0,17,0,Poor,Rented,South,Active,No Default
+CUST1291,Male,50,Master,Self-Employed,Married,0,727219,693,1,LN5291,Home,993831,36,12.35,31015.81,31.9,15,0,Average,Owned,Central,Defaulted,Default
+CUST1292,Male,55,Master,Employed,Married,3,2366268,602,2,LN5292,Auto,85709,12,11.07,7933.08,30.91,19,0,Average,Rented,South,Closed,No Default
+CUST1293,Female,41,High School,Employed,Divorced,2,431671,681,1,LN5293,Education,1928625,36,13.02,60548.11,46.17,9,0,Average,Family,East,Defaulted,Default
+CUST1294,Male,57,Master,Self-Employed,Single,4,1804777,653,2,LN5294,Auto,1780841,12,12.27,166612.52,41.01,26,0,Average,Mortgaged,East,Closed,No Default
+CUST1295,Male,25,Master,Employed,Married,0,694265,837,2,LN5295,Personal,1031652,84,10.45,13565.0,28.84,1,0,Good,Rented,East,Active,No Default
+CUST1296,Male,39,High School,Business,Single,1,808380,650,4,LN5296,Personal,279167,60,15.73,5384.67,54.26,9,0,Average,Owned,East,Active,No Default
+CUST1297,Female,34,Master,Business,Married,1,275556,818,2,LN5297,Home,355063,72,11.07,5477.34,27.37,10,0,Good,Rented,Central,Rejected,Default
+CUST1298,Male,46,Bachelor,Employed,Married,4,2077883,724,3,LN5298,Personal,919953,60,10.61,16959.33,53.75,11,0,Good,Rented,West,Approved,No Default
+CUST1299,Female,24,Bachelor,Unemployed,Married,0,1385565,619,2,LN5299,Personal,2366374,84,15.16,32441.86,43.24,0,0,Average,Rented,East,Rejected,Default
+CUST1300,Male,45,High School,Business,Single,3,1735537,704,1,LN5300,Education,763806,48,12.98,17978.08,31.57,16,0,Good,Owned,South,Defaulted,Default
+CUST1301,Male,45,High School,Self-Employed,Single,2,2125049,657,2,LN5301,Home,1015398,48,11.44,23574.16,53.42,10,0,Average,Rented,East,Approved,No Default
+CUST1302,Male,38,Master,Employed,Married,0,832755,698,0,LN5302,Home,1048653,48,10.12,24057.85,25.15,5,0,Average,Owned,Central,Approved,No Default
+CUST1303,Male,60,Phd,Employed,Single,1,1636048,626,1,LN5303,Auto,2279523,60,12.14,42604.28,33.75,29,0,Average,Family,South,Approved,No Default
+CUST1304,Female,28,Bachelor,Employed,Single,4,923088,806,0,LN5304,Auto,1072509,24,12.16,50121.92,40.93,3,0,Good,Owned,East,Rejected,Default
+CUST1305,Female,59,Bachelor,Employed,Married,4,830443,749,1,LN5305,Personal,800774,60,11.31,14855.69,49.05,22,0,Good,Owned,West,Defaulted,Default
+CUST1306,Female,60,Bachelor,Employed,Single,2,239778,682,3,LN5306,Education,974993,84,12.89,13103.21,45.09,21,0,Average,Owned,South,Active,No Default
+CUST1307,Male,34,Bachelor,Business,Married,4,1274409,809,3,LN5307,Personal,403791,84,8.86,5232.94,54.38,3,0,Good,Rented,South,Defaulted,Default
+CUST1308,Male,52,Bachelor,Employed,Married,4,989057,685,3,LN5308,Auto,1434525,72,14.02,22717.3,59.17,19,0,Average,Mortgaged,West,Defaulted,Default
+CUST1309,Female,58,High School,Self-Employed,Married,0,1693083,762,0,LN5309,Education,1429087,36,8.55,43090.94,10.71,21,0,Good,Mortgaged,South,Closed,No Default
+CUST1310,Male,53,Master,Unemployed,Single,3,2353513,682,4,LN5310,Auto,913787,60,11.79,17025.37,37.66,14,0,Average,Rented,East,Rejected,Default
+CUST1311,Male,43,Bachelor,Business,Married,2,1578949,709,1,LN5311,Auto,166220,60,12.99,3130.2,30.54,13,0,Good,Mortgaged,South,Active,No Default
+CUST1312,Male,35,Master,Employed,Single,0,1843129,673,3,LN5312,Personal,271421,12,11.22,25156.2,23.97,5,0,Average,Rented,East,Defaulted,Default
+CUST1313,Male,53,Diploma,Business,Divorced,3,702154,687,1,LN5313,Home,399317,84,13.62,5401.24,30.99,13,0,Average,Mortgaged,West,Defaulted,Default
+CUST1314,Female,45,High School,Employed,Single,0,1191930,692,0,LN5314,Auto,838428,12,11.32,77778.17,22.51,8,0,Average,Owned,North,Defaulted,Default
+CUST1315,Female,37,High School,Employed,Married,0,1847740,629,4,LN5315,Home,1082469,12,11.73,100786.88,41.79,9,0,Average,Rented,West,Defaulted,Default
+CUST1316,Female,53,Bachelor,Self-Employed,Divorced,4,1259525,649,0,LN5316,Business,1381379,60,15.19,26520.17,28.87,16,1,Average,Mortgaged,East,Defaulted,Default
+CUST1317,Male,22,Master,Employed,Married,3,1965818,663,1,LN5317,Home,1405898,24,13.29,66364.24,25.49,6,0,Average,Mortgaged,Central,Closed,No Default
+CUST1318,Male,34,High School,Employed,Married,2,1340117,697,4,LN5318,Personal,397186,36,13.32,12502.53,55.31,6,0,Average,Mortgaged,West,Rejected,Default
+CUST1319,Male,60,Master,Self-Employed,Married,2,2262963,677,4,LN5319,Personal,1467191,36,14.37,46611.84,40.49,18,0,Average,Owned,Central,Defaulted,Default
+CUST1320,Male,60,Bachelor,Employed,Divorced,3,1948555,767,0,LN5320,Home,287103,84,7.57,3676.63,10.68,22,0,Good,Owned,Central,Approved,No Default
+CUST1321,Male,59,Master,Employed,Married,4,241842,743,3,LN5321,Auto,739925,72,12.81,11593.19,46.34,15,0,Good,Family,East,Defaulted,Default
+CUST1322,Female,26,Diploma,Employed,Married,1,1461506,665,1,LN5322,Auto,2236394,84,11.88,29786.64,35.82,2,1,Average,Owned,East,Defaulted,Default
+CUST1323,Female,26,Master,Business,Married,0,469134,783,2,LN5323,Auto,1097146,24,10.31,50427.57,32.64,4,0,Good,Owned,North,Approved,No Default
+CUST1324,Male,23,Master,Self-Employed,Married,4,310356,820,2,LN5324,Education,1252532,24,11.36,58117.48,32.68,1,0,Good,Owned,South,Approved,No Default
+CUST1325,Female,27,Diploma,Employed,Married,3,2165313,526,0,LN5325,Business,1902207,36,14.57,60537.74,28.32,8,1,Poor,Rented,West,Closed,No Default
+CUST1326,Female,28,High School,Employed,Married,0,917090,749,1,LN5326,Education,810330,48,12.66,19019.12,29.51,14,0,Good,Owned,East,Defaulted,Default
+CUST1327,Male,35,Master,Employed,Single,2,1094565,628,1,LN5327,Personal,2312402,12,13.52,218753.23,31.72,10,0,Average,Rented,West,Active,No Default
+CUST1328,Female,49,Master,Employed,Single,1,967738,740,0,LN5328,Auto,2028745,12,12.15,189603.13,20.38,20,0,Good,Rented,Central,Active,No Default
+CUST1329,Male,53,High School,Business,Single,2,1232425,772,1,LN5329,Personal,2409830,36,10.68,74088.88,34.89,27,0,Good,Family,South,Active,No Default
+CUST1330,Male,50,Master,Employed,Single,3,2289512,614,3,LN5330,Personal,872564,84,12.19,11653.92,31.59,11,0,Average,Owned,North,Rejected,Default
+CUST1331,Male,59,Master,Employed,Single,0,957567,541,0,LN5331,Auto,2445406,24,13.77,115922.43,12.85,21,2,Poor,Rented,West,Closed,No Default
+CUST1332,Female,47,Master,Self-Employed,Married,3,1929736,742,3,LN5332,Home,900012,84,11.72,11970.16,35.06,12,0,Good,Rented,South,Approved,No Default
+CUST1333,Male,56,Master,Self-Employed,Single,0,1750234,690,1,LN5333,Personal,1514261,72,15.41,24272.34,36.79,22,0,Average,Mortgaged,North,Active,No Default
+CUST1334,Male,49,Master,Self-Employed,Married,4,2331482,554,0,LN5334,Personal,2193385,48,16.9,53418.06,35.7,16,0,Poor,Rented,West,Defaulted,Default
+CUST1335,Male,58,Bachelor,Employed,Single,1,231707,850,1,LN5335,Personal,2118884,36,9.27,64314.02,29.98,17,0,Good,Mortgaged,South,Defaulted,Default
+CUST1336,Male,53,Bachelor,Employed,Single,4,460833,726,0,LN5336,Business,798810,12,12.2,74688.74,18.4,17,0,Good,Owned,East,Defaulted,Default
+CUST1337,Female,57,Bachelor,Employed,Married,4,1268963,730,1,LN5337,Personal,1053941,60,11.62,19606.82,41.95,23,0,Good,Mortgaged,West,Defaulted,Default
+CUST1338,Female,47,Master,Employed,Married,3,2089824,782,3,LN5338,Personal,2253463,84,11.47,29903.99,56.59,9,0,Good,Rented,South,Approved,No Default
+CUST1339,Male,53,Master,Self-Employed,Single,1,2057145,636,3,LN5339,Home,2035404,24,13.85,96554.48,45.07,14,0,Average,Owned,North,Defaulted,Default
+CUST1340,Male,24,Diploma,Business,Married,0,2463785,689,1,LN5340,Home,1909062,60,13.46,36100.36,25.72,0,0,Average,Family,South,Rejected,Default
+CUST1341,Male,42,Master,Self-Employed,Married,0,1899374,581,0,LN5341,Business,2176861,72,9.93,33236.43,25.05,12,0,Poor,Mortgaged,East,Defaulted,Default
+CUST1342,Male,22,Bachelor,Business,Single,2,1014874,634,2,LN5342,Personal,2101723,36,14.04,66577.91,39.18,5,0,Average,Owned,West,Defaulted,Default
+CUST1343,Male,30,Bachelor,Employed,Single,0,1069493,708,3,LN5343,Home,2144885,84,11.78,28542.29,45.41,0,1,Average,Owned,West,Defaulted,Default
+CUST1344,Male,25,Bachelor,Self-Employed,Divorced,3,958799,555,3,LN5344,Auto,1098939,12,13.62,104051.21,52.73,2,0,Poor,Owned,West,Active,No Default
+CUST1345,Male,30,Bachelor,Employed,Married,4,2259610,632,2,LN5345,Business,544829,84,14.71,7440.16,40.23,1,0,Average,Mortgaged,East,Defaulted,Default
+CUST1346,Female,53,High School,Employed,Married,4,1059459,610,1,LN5346,Auto,446456,48,16.05,10794.0,30.71,21,0,Average,Owned,North,Defaulted,Default
+CUST1347,Female,58,Diploma,Employed,Married,4,2361533,690,0,LN5347,Education,1563993,60,13.68,29632.45,26.8,19,0,Average,Owned,West,Defaulted,Default
+CUST1348,Male,33,High School,Employed,Single,1,2002744,723,1,LN5348,Personal,2192841,48,11.38,50883.05,32.79,7,1,Average,Owned,North,Rejected,Default
+CUST1349,Male,51,High School,Employed,Married,0,2471136,735,4,LN5349,Home,948704,72,10.36,14541.52,41.28,16,1,Average,Mortgaged,South,Defaulted,Default
+CUST1350,Female,56,Bachelor,Unemployed,Single,3,918096,754,3,LN5350,Home,225037,12,7.18,20099.55,39.5,23,0,Good,Mortgaged,North,Active,No Default
+CUST1351,Male,44,Bachelor,Employed,Married,1,433091,782,4,LN5351,Business,258606,60,11.54,4807.49,46.49,20,0,Good,Mortgaged,North,Active,No Default
+CUST1352,Female,35,High School,Employed,Married,2,1032050,725,3,LN5352,Personal,1099458,72,12.99,17253.86,51.86,3,0,Good,Owned,West,Active,No Default
+CUST1353,Female,49,Master,Employed,Married,3,781160,821,3,LN5353,Personal,1079516,48,10.53,24858.1,46.58,11,0,Good,Family,Central,Closed,No Default
+CUST1354,Male,28,Diploma,Business,Single,3,444237,688,4,LN5354,Home,1746609,48,14.08,41511.07,49.29,5,0,Average,Mortgaged,Central,Defaulted,Default
+CUST1355,Male,25,Master,Self-Employed,Single,3,455049,667,4,LN5355,Personal,78885,60,11.01,1459.5,54.06,0,0,Average,Family,East,Approved,No Default
+CUST1356,Female,49,Master,Self-Employed,Married,4,826047,725,1,LN5356,Personal,446419,12,11.87,41617.41,36.67,19,0,Good,Rented,East,Approved,No Default
+CUST1357,Male,24,Diploma,Employed,Married,3,2088911,663,4,LN5357,Business,445460,48,12.68,10457.17,36.03,6,1,Average,Rented,Central,Active,No Default
+CUST1358,Female,32,Bachelor,Self-Employed,Married,0,1599920,818,1,LN5358,Home,410466,36,10.56,12605.87,31.57,3,0,Good,Mortgaged,South,Defaulted,Default
+CUST1359,Female,22,High School,Employed,Single,3,2359441,764,1,LN5359,Auto,1429339,72,13.29,22490.25,36.76,0,0,Good,Owned,West,Approved,No Default
+CUST1360,Male,47,Bachelor,Business,Married,4,1934867,736,1,LN5360,Auto,2168736,60,11.8,40410.78,36.13,13,0,Good,Rented,West,Closed,No Default
+CUST1361,Male,51,Bachelor,Self-Employed,Single,3,1629466,689,3,LN5361,Home,1893529,24,12.22,88538.26,54.0,16,0,Average,Family,South,Approved,No Default
+CUST1362,Female,56,Diploma,Employed,Divorced,2,1541236,649,3,LN5362,Personal,869973,24,11.86,40547.99,52.7,20,1,Average,Family,South,Defaulted,Default
+CUST1363,Male,56,Bachelor,Employed,Single,2,2268062,732,4,LN5363,Personal,1168844,12,14.01,111049.92,55.39,10,0,Good,Family,Central,Active,No Default
+CUST1364,Male,46,Diploma,Employed,Married,4,2014907,595,3,LN5364,Home,1478926,36,11.93,45982.27,41.2,9,0,Poor,Mortgaged,East,Closed,No Default
+CUST1365,Female,47,High School,Employed,Single,0,313498,795,4,LN5365,Auto,1556744,48,10.25,35756.46,37.47,12,0,Good,Owned,South,Approved,No Default
+CUST1366,Male,25,Bachelor,Employed,Divorced,0,1318585,666,3,LN5366,Home,2317976,24,15.55,111600.89,46.94,0,0,Average,Owned,East,Defaulted,Default
+CUST1367,Female,40,Bachelor,Self-Employed,Married,1,903858,702,0,LN5367,Personal,1494359,12,13.17,140930.51,7.48,0,0,Good,Rented,North,Active,No Default
+CUST1368,Female,31,Bachelor,Employed,Single,4,224816,611,0,LN5368,Home,1507913,72,13.8,23833.4,28.81,0,1,Average,Rented,West,Defaulted,Default
+CUST1369,Male,30,Bachelor,Employed,Single,3,184138,734,4,LN5369,Business,2017754,36,12.02,62785.78,55.02,0,0,Good,Owned,Central,Approved,No Default
+CUST1370,Male,60,Phd,Employed,Single,4,976883,645,3,LN5370,Education,2082355,36,11.91,64732.32,34.0,20,0,Average,Owned,West,Defaulted,Default
+CUST1371,Male,58,High School,Employed,Single,1,401552,728,3,LN5371,Education,1296729,84,11.98,17286.63,42.37,18,0,Good,Rented,Central,Approved,No Default
+CUST1372,Male,26,Bachelor,Business,Divorced,4,223764,736,1,LN5372,Education,2141219,12,11.44,198847.87,43.64,0,1,Average,Mortgaged,North,Rejected,Default
+CUST1373,Male,28,Bachelor,Employed,Married,4,2400182,631,2,LN5373,Home,1038167,12,13.8,98452.84,30.12,7,1,Average,Family,West,Rejected,Default
+CUST1374,Female,43,Bachelor,Self-Employed,Married,1,1098638,595,4,LN5374,Education,73331,84,11.82,976.18,59.77,15,0,Poor,Mortgaged,North,Approved,No Default
+CUST1375,Male,46,Phd,Business,Married,0,2077951,794,2,LN5375,Personal,73004,48,11.69,1698.71,23.92,14,0,Good,Mortgaged,Central,Approved,No Default
+CUST1376,Male,32,Master,Self-Employed,Married,3,1848531,665,2,LN5376,Auto,498013,12,14.55,47539.49,44.1,6,0,Average,Mortgaged,South,Active,No Default
+CUST1377,Female,46,Bachelor,Business,Single,1,496462,696,4,LN5377,Auto,2336319,84,12.25,31220.45,45.83,10,0,Average,Family,West,Closed,No Default
+CUST1378,Male,33,Master,Employed,Single,2,1069855,716,3,LN5378,Personal,981253,48,13.23,23147.35,43.56,3,0,Good,Mortgaged,North,Approved,No Default
+CUST1379,Female,60,Master,Unemployed,Married,0,1594718,585,4,LN5379,Education,1711908,48,14.69,40903.9,33.73,14,1,Poor,Family,West,Defaulted,Default
+CUST1380,Male,38,Master,Employed,Divorced,2,2337280,714,2,LN5380,Business,1894053,60,11.38,35159.94,47.08,8,0,Good,Family,West,Defaulted,Default
+CUST1381,Male,45,Master,Employed,Single,0,2496280,687,3,LN5381,Personal,2429412,36,11.11,74981.1,40.61,16,0,Average,Family,West,Defaulted,Default
+CUST1382,Female,53,Master,Self-Employed,Single,3,988301,631,0,LN5382,Education,592955,72,12.16,9236.92,40.47,23,0,Average,Rented,East,Defaulted,Default
+CUST1383,Female,60,High School,Unemployed,Married,3,1462116,593,4,LN5383,Personal,1435777,36,14.54,45681.64,41.44,20,1,Poor,Owned,North,Defaulted,Default
+CUST1384,Female,32,High School,Business,Divorced,4,2282191,725,4,LN5384,Auto,1697069,36,12.04,52816.56,52.55,8,0,Good,Owned,North,Approved,No Default
+CUST1385,Female,56,Bachelor,Employed,Single,2,332353,764,3,LN5385,Home,1125878,60,13.45,21288.48,44.68,7,0,Good,Owned,West,Active,No Default
+CUST1386,Female,24,High School,Employed,Married,0,292935,693,0,LN5386,Home,646822,48,13.79,15333.72,20.48,0,0,Average,Owned,South,Defaulted,Default
+CUST1387,Male,25,Bachelor,Unemployed,Married,3,1763306,572,0,LN5387,Business,1848278,48,15.6,44512.7,32.83,0,0,Poor,Owned,West,Defaulted,Default
+CUST1388,Male,57,Diploma,Employed,Single,1,1518306,600,3,LN5388,Business,423145,12,14.39,40336.3,38.95,25,0,Average,Rented,East,Active,No Default
+CUST1389,Female,28,Bachelor,Business,Single,3,2330205,647,1,LN5389,Education,2103413,60,11.85,39211.12,50.48,5,0,Average,Rented,Central,Defaulted,Default
+CUST1390,Female,48,Master,Business,Married,1,1410137,797,4,LN5390,Personal,844300,12,11.53,78470.65,46.82,16,0,Good,Mortgaged,East,Defaulted,Default
+CUST1391,Female,51,Master,Employed,Divorced,0,1967040,661,4,LN5391,Business,735611,60,13.18,13876.08,20.93,18,0,Average,Owned,South,Approved,No Default
+CUST1392,Male,29,High School,Employed,Single,3,266346,644,2,LN5392,Personal,2487205,12,11.63,231372.25,40.17,4,0,Average,Mortgaged,West,Active,No Default
+CUST1393,Male,49,Bachelor,Employed,Married,3,509231,554,3,LN5393,Business,1707387,24,16.5,82879.41,55.59,21,1,Poor,Mortgaged,North,Defaulted,Default
+CUST1394,Female,34,Master,Employed,Married,0,585841,630,2,LN5394,Home,1270985,84,15.2,17430.65,24.61,0,0,Average,Rented,West,Closed,No Default
+CUST1395,Male,60,High School,Business,Married,3,738685,587,2,LN5395,Personal,395744,36,12.48,12364.8,31.61,22,0,Poor,Family,South,Rejected,Default
+CUST1396,Female,42,Master,Employed,Married,1,1549391,604,0,LN5396,Auto,2078594,36,12.98,65233.21,15.78,16,1,Average,Owned,North,Approved,No Default
+CUST1397,Female,31,Bachelor,Business,Married,3,296214,688,4,LN5397,Personal,1893441,72,11.86,29416.71,42.89,0,0,Average,Owned,East,Rejected,Default
+CUST1398,Male,43,Bachelor,Employed,Married,2,1033329,649,2,LN5398,Personal,1726850,84,14.18,23472.83,33.16,15,0,Average,Rented,Central,Defaulted,Default
+CUST1399,Female,21,Phd,Unemployed,Married,4,1910085,807,0,LN5399,Home,1948761,48,11.64,45324.93,37.27,0,0,Good,Owned,Central,Closed,No Default
+CUST1400,Female,57,Diploma,Employed,Married,1,2206110,760,3,LN5400,Personal,1565412,72,11.67,24279.11,52.71,20,1,Average,Rented,West,Defaulted,Default
+CUST1401,Male,41,Bachelor,Employed,Married,2,1627075,634,2,LN5401,Personal,1906759,24,13.9,90491.6,17.61,7,0,Average,Rented,East,Closed,No Default
+CUST1402,Female,46,Master,Employed,Married,0,580826,611,4,LN5402,Personal,482184,72,11.9,7493.94,40.97,17,0,Average,Owned,South,Defaulted,Default
+CUST1403,Male,56,High School,Business,Single,1,616542,783,2,LN5403,Home,1259725,36,11.83,39131.96,36.92,18,0,Good,Owned,Central,Defaulted,Default
+CUST1404,Female,43,Bachelor,Self-Employed,Married,4,1505644,804,3,LN5404,Personal,2386806,48,10.79,55090.47,49.62,15,0,Good,Rented,East,Rejected,Default
+CUST1405,Male,21,Master,Business,Married,4,552397,515,2,LN5405,Auto,477991,24,14.26,22756.35,57.2,1,1,Poor,Mortgaged,West,Defaulted,Default
+CUST1406,Female,60,High School,Employed,Single,0,2016022,686,4,LN5406,Personal,1933578,36,10.41,59301.76,27.91,18,0,Average,Rented,North,Approved,No Default
+CUST1407,Male,35,Master,Employed,Married,0,1704314,661,0,LN5407,Business,708139,84,13.13,9537.11,5.0,9,0,Average,Owned,West,Rejected,Default
+CUST1408,Male,41,Bachelor,Employed,Married,1,2242087,728,4,LN5408,Business,2448559,12,12.62,229797.26,63.0,8,0,Good,Owned,West,Approved,No Default
+CUST1409,Female,29,Bachelor,Employed,Single,3,606674,825,0,LN5409,Personal,2464383,60,8.07,44387.65,33.53,4,0,Good,Owned,East,Active,No Default
+CUST1410,Male,29,Bachelor,Employed,Married,0,1188109,643,1,LN5410,Education,2070937,24,13.38,97834.52,21.43,3,0,Average,Owned,Central,Approved,No Default
+CUST1411,Male,30,Diploma,Unemployed,Single,3,262409,525,4,LN5411,Education,172989,48,15.31,4155.7,52.87,8,0,Poor,Family,East,Defaulted,Default
+CUST1412,Female,46,Master,Unemployed,Single,2,878876,723,4,LN5412,Business,876547,72,11.32,13552.39,50.95,15,0,Good,Owned,North,Closed,No Default
+CUST1413,Female,55,Master,Unemployed,Married,4,2175141,784,3,LN5413,Auto,326393,84,11.81,4344.52,43.24,18,0,Good,Mortgaged,East,Defaulted,Default
+CUST1414,Male,45,Bachelor,Business,Single,3,1236600,657,2,LN5414,Personal,1867119,72,12.95,29290.43,40.63,10,0,Average,Family,South,Defaulted,Default
+CUST1415,Female,46,Master,Employed,Married,4,1463440,627,0,LN5415,Auto,1909608,24,14.02,90722.29,32.84,8,0,Average,Owned,West,Rejected,Default
+CUST1416,Male,31,Bachelor,Employed,Married,3,1403451,647,0,LN5416,Auto,349850,84,14.1,4752.13,43.62,6,0,Average,Rented,Central,Defaulted,Default
+CUST1417,Male,58,Bachelor,Employed,Married,2,1116800,743,3,LN5417,Auto,1459761,48,12.66,34261.81,50.71,17,0,Good,Family,North,Defaulted,Default
+CUST1418,Male,22,Bachelor,Business,Married,0,2107716,645,3,LN5418,Home,91139,24,14.85,4361.38,51.91,0,0,Average,Family,West,Approved,No Default
+CUST1419,Female,27,Bachelor,Employed,Single,2,2101672,704,2,LN5419,Business,689207,48,12.95,16217.9,26.25,0,0,Good,Rented,East,Defaulted,Default
+CUST1420,Female,38,Bachelor,Employed,Married,0,1372503,682,2,LN5420,Business,821965,72,12.05,12791.83,29.22,15,0,Average,Mortgaged,South,Defaulted,Default
+CUST1421,Female,47,Master,Employed,Single,0,1313754,674,4,LN5421,Personal,353446,36,11.92,10988.24,45.94,11,0,Average,Family,East,Closed,No Default
+CUST1422,Female,54,Bachelor,Employed,Married,4,1227380,732,1,LN5422,Personal,1448558,84,10.43,19043.36,20.63,22,0,Good,Rented,West,Defaulted,Default
+CUST1423,Male,47,High School,Business,Divorced,2,1067553,644,2,LN5423,Personal,1035663,12,13.57,98016.87,46.45,12,0,Average,Family,North,Defaulted,Default
+CUST1424,Male,37,High School,Business,Single,3,1745116,647,3,LN5424,Education,1767479,36,15.28,56598.61,50.64,13,0,Average,Rented,Central,Defaulted,Default
+CUST1425,Male,44,Bachelor,Employed,Married,2,1626250,739,2,LN5425,Auto,1848432,12,11.38,171565.3,34.06,17,0,Good,Rented,West,Closed,No Default
+CUST1426,Male,45,Master,Unemployed,Married,4,1292186,605,0,LN5426,Auto,1095716,72,14.6,17440.15,28.53,9,0,Average,Family,North,Defaulted,Default
+CUST1427,Male,27,Bachelor,Self-Employed,Married,0,1823707,613,1,LN5427,Home,2205091,84,12.68,29579.72,36.03,0,0,Average,Family,West,Defaulted,Default
+CUST1428,Female,26,Bachelor,Employed,Married,4,1933767,585,4,LN5428,Auto,1971458,36,14.52,62714.27,47.64,0,0,Poor,Rented,South,Rejected,Default
+CUST1429,Male,44,Bachelor,Employed,Single,1,878787,743,0,LN5429,Home,2045633,36,13.74,64630.64,32.85,9,0,Good,Owned,East,Active,No Default
+CUST1430,Male,53,Bachelor,Employed,Married,1,2455419,672,0,LN5430,Home,2170700,24,13.95,103063.03,20.48,25,0,Average,Mortgaged,Central,Closed,No Default
+CUST1431,Male,49,Bachelor,Employed,Single,3,2088241,581,1,LN5431,Education,2053345,60,11.93,38305.15,39.55,13,1,Poor,Mortgaged,North,Closed,No Default
+CUST1432,Female,42,Bachelor,Unemployed,Married,4,2432641,744,4,LN5432,Business,1748413,72,12.7,27367.52,54.69,12,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1433,Female,46,Master,Employed,Divorced,3,524126,638,3,LN5433,Business,494503,48,14.35,11780.5,63.37,18,0,Average,Family,Central,Defaulted,Default
+CUST1434,Male,48,Master,Business,Married,3,1858997,614,4,LN5434,Business,187799,72,14.05,2974.79,44.4,15,0,Average,Family,Central,Defaulted,Default
+CUST1435,Male,41,Bachelor,Employed,Married,1,1093081,665,2,LN5435,Home,815820,48,14.03,19380.82,29.91,11,0,Average,Rented,North,Defaulted,Default
+CUST1436,Female,27,High School,Employed,Single,3,2022360,790,0,LN5436,Home,231789,84,9.9,3032.57,15.45,5,0,Good,Owned,North,Rejected,Default
+CUST1437,Male,37,High School,Employed,Married,1,1317411,650,2,LN5437,Auto,484352,48,13.34,11436.76,25.73,9,0,Average,Rented,Central,Defaulted,Default
+CUST1438,Female,40,High School,Employed,Married,0,1850357,723,3,LN5438,Business,1999834,12,13.82,189684.25,43.71,10,0,Good,Mortgaged,East,Defaulted,Default
+CUST1439,Female,40,Bachelor,Employed,Single,4,1925030,734,2,LN5439,Personal,1737745,48,13.52,41097.67,54.8,7,1,Average,Mortgaged,West,Closed,No Default
+CUST1440,Male,42,Bachelor,Business,Married,3,2379100,713,4,LN5440,Home,1544201,48,13.13,36394.89,58.11,11,0,Good,Rented,Central,Defaulted,Default
+CUST1441,Male,48,Bachelor,Employed,Single,1,1695331,775,2,LN5441,Personal,852009,24,10.05,39068.16,34.46,19,0,Good,Rented,South,Closed,No Default
+CUST1442,Female,60,Bachelor,Self-Employed,Married,2,473851,626,3,LN5442,Auto,161776,36,12.05,5035.28,35.85,28,0,Average,Owned,Central,Defaulted,Default
+CUST1443,Male,27,High School,Employed,Married,3,477986,601,3,LN5443,Home,935678,72,14.16,14835.69,52.69,4,0,Average,Owned,North,Defaulted,Default
+CUST1444,Male,21,Bachelor,Employed,Married,0,2290413,600,3,LN5444,Home,1856860,72,14.27,29469.92,30.41,3,0,Average,Rented,West,Defaulted,Default
+CUST1445,Female,52,Diploma,Employed,Single,0,2202784,669,4,LN5445,Personal,262803,84,12.81,3529.38,33.21,18,0,Average,Owned,South,Defaulted,Default
+CUST1446,Female,33,Bachelor,Self-Employed,Married,2,1033605,608,3,LN5446,Home,2305913,84,12.67,30929.43,40.53,6,0,Average,Rented,West,Defaulted,Default
+CUST1447,Female,50,Diploma,Employed,Married,1,1522501,691,0,LN5447,Business,71341,48,13.29,1683.8,6.23,18,0,Average,Rented,West,Defaulted,Default
+CUST1448,Female,43,Master,Employed,Divorced,3,1495823,685,3,LN5448,Personal,1304329,60,12.89,24540.95,34.45,16,0,Average,Rented,South,Active,No Default
+CUST1449,Male,39,High School,Self-Employed,Married,1,950692,756,2,LN5449,Auto,2455626,72,12.09,38229.32,49.59,6,0,Good,Owned,Central,Closed,No Default
+CUST1450,Male,52,Master,Employed,Single,0,1853200,701,2,LN5450,Auto,869745,84,13.38,11739.49,19.47,11,0,Good,Family,Central,Defaulted,Default
+CUST1451,Female,50,Bachelor,Employed,Married,1,608745,648,2,LN5451,Business,2456196,48,12.87,57756.43,24.99,13,0,Average,Rented,Central,Approved,No Default
+CUST1452,Male,49,Master,Employed,Married,0,817787,710,4,LN5452,Personal,128840,84,11.62,1712.04,44.57,16,0,Good,Mortgaged,East,Approved,No Default
+CUST1453,Male,49,Bachelor,Business,Married,1,853812,602,2,LN5453,Business,1264343,12,15.63,121829.98,35.49,18,0,Average,Mortgaged,Central,Active,No Default
+CUST1454,Female,50,Master,Self-Employed,Married,2,1538126,677,4,LN5454,Auto,211297,12,11.71,19669.99,47.12,11,0,Average,Owned,South,Approved,No Default
+CUST1455,Male,36,Master,Employed,Married,4,524866,703,4,LN5455,Business,1981375,84,11.75,26359.36,37.97,0,0,Good,Rented,East,Defaulted,Default
+CUST1456,Male,60,Bachelor,Employed,Married,2,955107,689,3,LN5456,Business,99156,12,14.52,9462.79,49.79,19,0,Average,Family,Central,Rejected,Default
+CUST1457,Male,39,Bachelor,Unemployed,Married,2,716644,711,0,LN5457,Personal,2355433,84,11.51,31268.37,21.46,9,0,Good,Mortgaged,East,Defaulted,Default
+CUST1458,Male,38,Bachelor,Self-Employed,Single,4,832416,631,3,LN5458,Personal,2234605,48,13.39,52787.89,57.76,4,1,Average,Family,South,Defaulted,Default
+CUST1459,Male,21,Bachelor,Employed,Single,4,1196003,766,3,LN5459,Personal,1781765,24,10.89,82324.97,42.84,0,0,Good,Mortgaged,Central,Rejected,Default
+CUST1460,Male,34,High School,Business,Single,3,1714263,816,4,LN5460,Home,75938,60,8.09,1368.02,59.36,10,0,Good,Owned,North,Active,No Default
+CUST1461,Male,22,Bachelor,Employed,Single,3,1887542,559,4,LN5461,Personal,2206316,48,14.43,52597.65,61.87,0,0,Poor,Owned,South,Active,No Default
+CUST1462,Female,48,Bachelor,Employed,Married,2,2072628,588,2,LN5462,Personal,2137001,24,12.66,100314.39,33.26,16,0,Poor,Rented,West,Closed,No Default
+CUST1463,Female,50,Bachelor,Self-Employed,Married,2,1654620,683,2,LN5463,Home,452681,24,13.14,21340.14,44.04,14,0,Average,Rented,West,Closed,No Default
+CUST1464,Female,58,Master,Employed,Married,0,1354846,660,3,LN5464,Personal,1781530,72,14.76,28395.61,27.37,17,0,Average,Owned,South,Active,No Default
+CUST1465,Female,24,Bachelor,Unemployed,Married,0,2172569,822,1,LN5465,Personal,1214395,48,7.35,27159.44,28.11,0,0,Good,Mortgaged,West,Approved,No Default
+CUST1466,Male,21,Phd,Business,Divorced,3,2029395,696,1,LN5466,Home,191900,48,11.95,4475.67,43.28,1,1,Average,Rented,South,Defaulted,Default
+CUST1467,Male,28,Diploma,Self-Employed,Married,3,1169336,784,2,LN5467,Personal,1408308,84,11.92,18764.03,43.65,0,0,Good,Rented,North,Defaulted,Default
+CUST1468,Female,49,Bachelor,Employed,Married,0,947286,526,1,LN5468,Home,2185012,24,11.83,101812.45,45.25,22,0,Poor,Family,South,Defaulted,Default
+CUST1469,Male,59,Bachelor,Employed,Married,0,1209933,741,2,LN5469,Home,2349782,24,13.89,111506.95,36.59,23,0,Good,Family,Central,Approved,No Default
+CUST1470,Female,23,Bachelor,Employed,Married,1,1146020,626,4,LN5470,Home,1621801,24,14.18,77157.18,43.58,0,0,Average,Rented,Central,Defaulted,Default
+CUST1471,Male,52,Master,Business,Single,1,1814925,625,3,LN5471,Business,2068391,84,15.25,28378.82,63.23,20,0,Average,Family,East,Approved,No Default
+CUST1472,Female,30,Diploma,Employed,Married,0,2212816,661,0,LN5472,Home,718875,72,12.24,11206.46,33.07,9,0,Average,Family,West,Defaulted,Default
+CUST1473,Male,30,Master,Employed,Divorced,1,241753,573,3,LN5473,Home,645983,48,13.74,15307.11,27.68,3,0,Poor,Rented,West,Defaulted,Default
+CUST1474,Female,39,Bachelor,Self-Employed,Married,4,1632879,713,2,LN5474,Home,303078,24,12.06,14151.22,35.73,9,0,Good,Owned,South,Approved,No Default
+CUST1475,Male,54,Bachelor,Employed,Single,3,1652608,694,2,LN5475,Education,418893,12,15.8,40423.17,31.19,24,0,Average,Owned,West,Defaulted,Default
+CUST1476,Female,53,Bachelor,Self-Employed,Married,3,1251984,699,3,LN5476,Business,1254552,48,14.49,29923.68,50.67,26,0,Average,Rented,Central,Defaulted,Default
+CUST1477,Male,43,Bachelor,Employed,Married,0,304116,746,2,LN5477,Business,765295,84,12.01,10204.84,36.57,12,0,Good,Rented,North,Rejected,Default
+CUST1478,Male,48,Bachelor,Unemployed,Single,2,1202780,793,1,LN5478,Auto,1928798,72,11.49,29866.9,35.51,10,0,Good,Family,South,Defaulted,Default
+CUST1479,Female,52,Bachelor,Employed,Married,0,835496,652,1,LN5479,Personal,1042652,12,14.17,99199.65,12.96,15,0,Average,Mortgaged,West,Closed,No Default
+CUST1480,Male,27,High School,Employed,Married,1,2294565,715,2,LN5480,Personal,1104212,84,15.86,15230.24,29.4,7,0,Good,Mortgaged,Central,Defaulted,Default
+CUST1481,Female,49,Bachelor,Employed,Married,2,1050946,701,2,LN5481,Personal,2408730,36,13.06,75647.5,35.81,11,0,Good,Family,East,Active,No Default
+CUST1482,Female,28,High School,Employed,Single,1,1284934,708,1,LN5482,Business,2130563,48,12.45,49912.88,13.92,3,0,Good,Family,West,Defaulted,Default
+CUST1483,Male,21,Bachelor,Business,Married,4,2343349,709,2,LN5483,Auto,2018972,36,11.86,62733.95,35.03,1,0,Good,Rented,North,Active,No Default
+CUST1484,Female,23,Bachelor,Business,Married,1,673992,799,2,LN5484,Auto,333816,84,11.37,4425.84,45.35,0,0,Good,Owned,North,Defaulted,Default
+CUST1485,Female,44,Bachelor,Self-Employed,Married,4,1976725,645,3,LN5485,Home,1890820,84,12.44,25309.98,35.57,17,0,Average,Mortgaged,West,Active,No Default
+CUST1486,Female,43,Bachelor,Employed,Single,4,965833,565,0,LN5486,Education,571393,84,15.27,7841.01,41.64,14,0,Poor,Rented,West,Approved,No Default
+CUST1487,Male,28,High School,Employed,Married,1,256240,627,1,LN5487,Personal,1099230,24,11.45,51045.49,37.23,11,0,Average,Rented,Central,Defaulted,Default
+CUST1488,Male,57,Bachelor,Employed,Married,1,415595,736,3,LN5488,Personal,175851,72,11.57,2724.96,38.17,22,0,Good,Mortgaged,West,Approved,No Default
+CUST1489,Female,23,Bachelor,Self-Employed,Married,4,1751286,681,0,LN5489,Home,716978,24,13.89,34023.59,24.81,0,0,Average,Family,East,Closed,No Default
+CUST1490,Female,53,Bachelor,Business,Married,2,1507042,644,2,LN5490,Auto,844878,72,13.89,13364.33,43.65,19,1,Average,Rented,Central,Rejected,Default
+CUST1491,Male,48,Master,Employed,Single,4,2128061,599,2,LN5491,Home,2103262,60,13.32,39723.61,35.7,18,0,Poor,Mortgaged,South,Defaulted,Default
+CUST1492,Female,28,High School,Employed,Married,3,1018357,696,3,LN5492,Business,1987135,24,12.21,92906.84,39.6,8,0,Average,Owned,East,Approved,No Default
+CUST1493,Male,54,Bachelor,Self-Employed,Single,4,370920,728,2,LN5493,Personal,2458163,36,13.63,77589.18,41.81,15,0,Good,Mortgaged,Central,Active,No Default
+CUST1494,Male,55,Bachelor,Business,Single,2,1078332,702,4,LN5494,Auto,2305424,72,10.65,35429.88,31.96,15,0,Good,Owned,Central,Defaulted,Default
+CUST1495,Male,52,Bachelor,Business,Single,3,1059854,661,3,LN5495,Home,276179,24,11.28,12805.5,33.9,12,0,Average,Family,North,Defaulted,Default
+CUST1496,Male,44,Diploma,Business,Married,0,1251775,690,0,LN5496,Personal,924506,48,11.26,21429.28,17.47,19,0,Average,Owned,Central,Closed,No Default
+CUST1497,Female,34,Diploma,Employed,Married,0,343187,690,3,LN5497,Education,2122171,84,12.63,28454.78,41.81,9,0,Average,Mortgaged,East,Active,No Default
+CUST1498,Male,52,Master,Employed,Married,2,635150,694,1,LN5498,Education,1815401,72,10.55,27873.97,24.59,13,0,Average,Owned,West,Active,No Default
+CUST1499,Female,36,Bachelor,Business,Single,4,689551,591,3,LN5499,Auto,1316084,72,15.56,21123.15,46.42,8,0,Poor,Owned,East,Rejected,Default
+CUST1500,Female,24,Bachelor,Self-Employed,Married,1,1742518,694,2,LN5500,Business,1741286,24,11.2,80679.58,21.59,1,1,Average,Rented,South,Active,No Default
